@@ -3,11 +3,13 @@
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
     <head>
         <title>Inicio</title>
+        <link rel="stylesheet" type="text/css"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     </head>
     <body>
         <h1 th:inline="text">Hola [[${#httpServletRequest.remoteUser}]]!</h1>
         <form th:action="@{/logout}" method="post">
-            <input type="submit" value="Cerrar Sesion"/>
+            <input type="submit"  class="btn btn-danger" value="Cerrar Sesion"/>
         </form>
         <h1><a th:href="@{/admin}"> ADMINISTRADOR</a> | <a th:href="@{/user}"> USUARIO</a></h1>
     </body>

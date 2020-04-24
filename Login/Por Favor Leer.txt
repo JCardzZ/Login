@@ -1,0 +1,11 @@
+---CREDENCIALES---
+Las contraseñas van cifradas, el proyecto lo desarrolle en Spring Tools, tendria que agregar el marco de trabajo para iniciarlo.
+Adjunto la BD
+
+Administrador
+Usuario: admin
+Contraseña: 123
+
+Usuario
+Usuario: user
+Contraseña: 123
